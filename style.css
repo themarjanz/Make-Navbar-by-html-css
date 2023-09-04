@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+nav ul {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: end;
+    background-color: blanchedalmond;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+    /* color: black; */
+    border: 2px solid gray;
+
+
+}
+
+nav ul li:hover {
+    background-color: blue;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
